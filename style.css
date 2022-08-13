@@ -1,0 +1,287 @@
+@font-face {
+  font-family: 'Brush Script MT';
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/BrushScriptMT.eot');
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/BrushScriptMT.eot?#iefix') format('embedded-opentype'), url('../fonts/BrushScriptMT.woff2') format('woff2'), url('../fonts/BrushScriptMT.woff') format('woff'), url('../fonts/BrushScriptMT.ttf') format('truetype'), url('../fonts/BrushScriptMT.svg#BrushScriptMT') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Brush Script MT';
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/BrushScriptMT_1.eot');
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/BrushScriptMT_1.eot?#iefix') format('embedded-opentype'), url('../fonts/BrushScriptMT_1.woff2') format('woff2'), url('../fonts/BrushScriptMT_1.woff') format('woff'), url('../fonts/BrushScriptMT_1.ttf') format('truetype'), url('../fonts/BrushScriptMT_1.svg#BrushScriptMT') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Segoe Print';
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/segeo/SegoePrint-Bold.eot');
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/segeo/SegoePrint-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/segeo/SegoePrint-Bold.woff2') format('woff2'), url('../fonts/segeo/SegoePrint-Bold.woff') format('woff'), url('../fonts/segeo/SegoePrint-Bold.ttf') format('truetype'), url('../fonts/segeo/SegoePrint-Bold.svg#SegoePrint-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Times New Roman I';
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/t-n-r-italic/TimesNewRomanPS-ItalicMT.eot');
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/t-n-r-italic/TimesNewRomanPS-ItalicMT.eot?#iefix') format('embedded-opentype'), url('../fonts/t-n-r-italic/TimesNewRomanPS-ItalicMT.woff2') format('woff2'), url('../fonts/t-n-r-italic/TimesNewRomanPS-ItalicMT.woff') format('woff'), url('../fonts/t-n-r-italic/TimesNewRomanPS-ItalicMT.ttf') format('truetype'), url('../fonts/t-n-r-italic/TimesNewRomanPS-ItalicMT.svg#TimesNewRomanPS-ItalicMT') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Arial Rounded MT';
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/ArialRoundedMTBold.eot');
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'), url('../fonts/ArialRoundedMTBold.woff2') format('woff2'), url('../fonts/ArialRoundedMTBold.woff') format('woff'), url('../fonts/ArialRoundedMTBold.ttf') format('truetype'), url('../fonts/ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/MyriadPro-Regular.eot');
+  src: url('<?php echo get_template_directory_uri(); ?>/fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('MyriadPro-Regular.woff2') format('woff2'), url('MyriadPro-Regular.woff') format('woff'), url('MyriadPro-Regular.ttf') format('truetype'), url('MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.header .nav{
+  text-align: center;
+
+}
+
+.header .nav .nav-item{
+  display: inline-block;
+}
+.header .nav .nav-item a {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  text-decoration: none;
+  font-family:'Brush Script MT',sans-serif;
+  font-size: 2rem;
+  color: black;
+}
+
+
+.header .icons {
+  text-align: right;
+  padding-top: 13px;
+}
+.header .icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 25px;
+}
+.main {
+  width: 100%;
+}
+.main .parallax-window {
+  height: 100vh;
+  background: transparent;
+}
+.main-about {
+  width: 100%;
+  margin-top: 12rem;
+  margin-bottom: 15rem;
+  color: black;
+}
+.main-about .about-form {
+  border: 2px dotted #a7e4ff;
+  border-radius: 30px;
+  padding: 15px;
+  text-align: center;
+}
+.main-about .about-form-avatar img {
+  height: 250px;
+  width: 250px;
+}
+.main-about .about-form-text p {
+  font-family: sans-serif;
+  border-bottom: 1px dotted black;
+}
+.features {
+  text-align: center;
+}
+.features-class {
+  padding-bottom: 8rem;
+}
+.features-header {
+  text-align: center;
+  color: #fff;
+  padding-top: 7rem;
+  margin-bottom: 15rem;
+}
+.features-header h2 {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 2.7rem;
+}
+.features-block {
+  text-align: center;
+  display: inline-block;
+}
+.features-block img {
+  width: 150px;
+  height: 150px;
+}
+.features-block h3 {
+  font-family: 'Times New Roman', sans-serif;
+  color: #fff;
+}
+.features-block p {
+  font-family: 'Times New Roman I', sans-serif;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.question .parallax-window {
+  height: 100vh;
+  background: transparent;
+}
+.question-header {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+.question-header h2 {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 2.3rem;
+  text-align: center;
+}
+.question .accordion {
+  margin-bottom: 10rem;
+}
+.footer {
+  background-color: #999999;
+  height: 70px;
+}
+.footer .text {
+  margin-top: 30px;
+
+}
+.footer .text::before {
+  background: url(../img/footer/copyright.svg);
+  content: '';
+  display: inline-block;
+  top: 0;
+  left: 0;
+  bottom: 10px;
+  height: 10px;
+  width: 10px;
+  
+}
+.footer-icons {
+  text-align: right;
+}
+.footer-icons img {
+  margin-top: 17px;
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+}
+.main-work-div {
+  height: 100vh;
+  width: 100%;
+}
+.main-work-text p {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 20rem;
+  text-transform: uppercase;
+  font-family: 'Arial Rounded MT', sans-serif;
+  color: #755151;
+}
+.main-work-text p::after {
+  content: '';
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  top: 0;
+  left: 0;
+  background: url(../img/work-page-main/scroll.svg) center no-repeat;
+  background-size: cover;
+}
+.works {
+  padding-top: 2rem;
+}
+.works-header {
+  padding-bottom: 10rem;
+  text-align: center;
+}
+.works-header h2 {
+  font-family: 'Myriad Pro', sans-serif;
+  color: #858797;
+  font-size: 3rem;
+}
+.works-project {
+  padding-bottom: 10rem;
+}
+.works-project-slider-block-img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+.works-project-slider-block-img img {
+  padding-right: 10px;
+  padding-left: 10px;
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.works-project-slider-block-img h3 {
+  font-family: 'Segoe Print', serif;
+  padding-top: 1rem;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+.next {
+  right: 0;
+  background: url(../img/work-page-main/caret-right.svg) center no-repeat;
+  background-size: 70%;
+  position: absolute;
+  width: 5rem;
+  height: 6rem;
+  border: none;
+  top: 50%;
+  -webkit-transform: translateY(-80%) translateX(50px);
+  transform: translateY(-80%) translateX(50px);
+  z-index: 99;
+}
+.prev {
+  left: 0;
+  background: url(../img/work-page-main/caret-left.svg) center no-repeat;
+  background-size: 70%;
+  position: absolute;
+  width: 5rem;
+  height: 6rem;
+  border: none;
+  top: 50%;
+  -webkit-transform: translateY(-80%) translateX(-50px);
+  transform: translateY(-80%) translateX(-50px);
+  z-index: 99;
+}
+.about {
+  background: url(../img/about/aboutme-bg.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 22rem;
+  padding-bottom: 20rem;
+}
+.about-text {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+.about-text p {
+  text-align: center;
+  font-family: 'TimesNewRoman', sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 767px) {
+  .header .nav{
+    text-align: left;
+
+  }
+
+}
+
+

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Работы</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+	<header class="header fixed-top">
+		<div class="container">			
+			<div class="row">
+				<ul class="nav">
+					<div class="col-lg-2 col-md-2 col-sm-3 col-4">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">
+								Portfolio
+							</a>
+						</li>
+					</div>
+					<div class="col-lg-2 offset-lg-3 col-md-3 offset-md-1 col-sm-2 col-4">
+						<li class="nav-item">
+							<a class="nav-link p" href="works.html">
+								Работы
+							</a>
+						</li>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-3 col-4">
+						<li class="nav-item">
+							<a class="nav-link p" href="about.html">
+								Обо мне
+							</a>
+						</li>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-4 col-9 ">
+						<li class="nav-item">
+							<div class="header-icons">
+								<a href="https://www.instagram.com/invites/contact/?i=1giv6kour3qii&utm_content=15sa6dc"><img src="img/header/instagram.svg" alt="instagram"></a>
+								<a href="https://t.me/Vitalizm"><img src="img/header/telegram.svg" alt="telegram"></a>
+								<a href="https://www.facebook.com/profile.php?id=100014386208326"><img src="img/header/facebook.svg" alt="facebook"></a>
+							</div>
+						</li>
+					</div>
+				</ul>																			
+			</div>
+		</div>
+	</header> 
+	<section class="main-work">
+		<div class="main-work-div" data-vide-bg="video/sea-bg.mp4">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 offset-lg-3">
+						<div class="main-work-text">
+							<p class="animate__animated animate__hinge animate__delay-2s">Scroll down</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="works">
+		<div class="works-header">
+			<h2>Проекты</h2>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<div class="works-project">
+						<div class="works-project-slider">
+							<div class="works-project-slider-block">
+								<div class="works-project-slider-block-img">
+									<a href=""><img src="img/slider/1.jpg" alt=""></a>			
+									<h3>Работа №1</h3>
+									<p></p>								
+								</div>
+							</div>
+							<div class="works-project-slider-block">
+								<div class="works-project-slider-block-img">
+									<a href=""><img src="img/slider/2.jpg" alt=""></a>									
+									<h3>Работа №2</h3>
+									<p></p>								
+								</div>
+							</div>
+							<div class="works-project-slider-block">
+								<div class="works-project-slider-block-img">
+									<a href=""><img src="img/slider/3.jpg" alt=""></a>									
+									<h3>Работа №3</h3>
+									<p></p>
+								</div>
+							</div>
+							<div class="works-project-slider-block">
+								<div class="works-project-slider-block-img">
+									<a href=""><img src="img/slider/4.jpg" alt=""></a>									
+									<h3>Работа №4</h3>
+									<p></p>							
+								</div>
+							</div>
+							<div class="works-project-slider-block">
+								<div class="works-project-slider-block-img">
+									<a href=""><img src="img/slider/4.jpg" alt=""></a>									
+									<h3>Работа №5</h3>
+									<p></p>							
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-3 col-sm-3 col-3">
+					<p class="text">2022</p>
+				</div>
+				<div class="col-lg-4 offset-lg-6 col-md-6 offset-md-3 col-sm-8 offset-sm-1 col-9">
+					<div class="footer-icons">
+						<a href="https://t.me/Vitalizm" class=""><img src="img/footer/telegram.svg" alt="telegram"></a>
+						<a href="https://www.instagram.com/invites/contact/?i=1giv6kour3qii&utm_content=15sa6dc" class=""><img src="img/footer/instagram.svg" alt="instagram"></a>
+						<a href="https://www.facebook.com/profile.php?id=100014386208326" class=""><img src="img/footer/facebook.svg" alt="facebook"></a>
+						<a href="mailto:seedsedowsidushka" class=""><img src="img/footer/gmail.svg" alt="gmail"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.vide.min.js"></script>
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<script src="slick/slick.min.js"></script>
+	<script>
+		
+		var wow = new WOW();
+		wow.init();
+	</script>
+	<script>
+		$(document).ready(function(){
+			$('.works-project-slider').slick({
+				infinite: true,
+				speed: 300,
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 2000,
+				responsive: [
+				{
+					breakpoint: 1920,
+					settings: {
+						slidesToShow: 4,
+						infinite: true,
+						prevArrow:'<button class="prev"></button>',
+						nextArrow:'<button class="next"></button>',
+						slidesToScroll: 4
+					}
+				},
+				{
+					breakpoint: 1400,
+					settings: {
+						slidesToShow: 4,
+						infinite: true,
+						prevArrow:'<button class="prev"></button>',
+						nextArrow:'<button class="next"></button>',
+						slidesToScroll: 4
+					}
+				},
+				{
+					breakpoint: 1200,
+					settings: {
+						slidesToShow: 3,
+						infinite: true,
+						prevArrow:'<button class="prev"></button>',
+						nextArrow:'<button class="next"></button>',
+						slidesToScroll: 3
+					}
+				},
+				{
+					breakpoint: 942,
+					settings: {
+						slidesToShow: 2,
+						infinite: true,
+						prevArrow:'<button class="prev"></button>',
+						nextArrow:'<button class="next"></button>',
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 700,
+					settings: {
+						slidesToShow: 1,
+						infinite: true,
+						slidesToScroll: 1
+					}
+				}
+		// You can unslick at a given breakpoint now by adding:
+		// settings: "unslick"
+		// instead of a settings object
+		]
+	});
+		});
+	</script>
+</body>
+</html>
